@@ -11,7 +11,10 @@ Normal
 The system consists of a Flask backend for prediction and a React frontend for user interaction.
 
  
- **Project Structure**
+
+## Project Structure
+
+```
 lung-cancer-detection-system/
 │
 ├── lung-cancer-backend/
@@ -19,7 +22,6 @@ lung-cancer-detection-system/
 │   │   ├── benign/
 │   │   ├── malignant/
 │   │   └── normal/
-│   │
 │   ├── train.py
 │   ├── app.py
 │   ├── model.h5
@@ -30,8 +32,8 @@ lung-cancer-detection-system/
 │   │   ├── App.js
 │   │   ├── components/
 │   │   └── styles/
-│
-└── README.md
+│   └── README.md
+```
 
  **Technologies Used**
 🔹 Backend
