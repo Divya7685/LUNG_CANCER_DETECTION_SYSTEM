@@ -88,30 +88,6 @@ To run Backend command: python app.py
 
 To run frontend command: npm start
 
-**CODE STRUCTURE**
-
-**Backend** (Flask)
-lung-cancer-backend/
-│
-├── dataset/
-│   ├── benign/
-│   ├── malignant/
-│   └── normal/
-│
-├── train.py
-├── app.py
-├── model.h5
-├── requirements.txt
-
-**Frontend (React)**
-lung-cancer-frontend/
-│
-├── src/
-│   ├── App.js
-│   ├── components/
-│   └── styles/
-
-
 
 
 **Output**
@@ -119,6 +95,6 @@ Displays prediction result:
 Benign
 Malignant
 Normal
-Frontend
+
 
 
