@@ -1,6 +1,6 @@
 # LUNG_CANCER_DETECTION_SYSTEM
 Frontend
-## ▶️ Setup & Run
+**Setup & Run**
 
 cd "E:\Lung Cancer Detection System"
 
@@ -23,4 +23,28 @@ pip install flask tensorflow keras pillow numpy opencv-python flask-cors
 To run Backend command: python app.py
 
 To run frontend command: npm start
+
+**CODE STRUCTURE**
+
+**Backend** (Flask)
+lung-cancer-backend/
+│
+├── dataset/
+│   ├── benign/
+│   ├── malignant/
+│   └── normal/
+│
+├── train.py
+├── app.py
+├── model.h5
+├── requirements.txt
+
+**Frontend (React)**
+lung-cancer-frontend/
+│
+├── src/
+│   ├── App.js
+│   ├── components/
+│   └── styles/
+
 
