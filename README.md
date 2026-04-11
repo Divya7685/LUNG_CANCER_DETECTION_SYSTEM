@@ -46,7 +46,7 @@ React.js
 HTML, CSS, JavaScript
 
 
-🚀 How It Works (Sequence Flow)
+ How It Works (Sequence Flow)
 User uploads a lung CT scan image via the React frontend.
 The image is sent to the Flask backend using an API request.
 Backend preprocesses the image (resize, normalization).
