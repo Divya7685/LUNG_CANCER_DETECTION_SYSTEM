@@ -37,7 +37,7 @@ lung-cancer-detection-system/
 
 
 
-# **Technologies Used**
+# Technologies Used
 
 🔹 Backend
 
