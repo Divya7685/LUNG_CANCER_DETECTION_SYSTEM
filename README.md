@@ -36,15 +36,23 @@ lung-cancer-detection-system/
 ```
 
  **Technologies Used**
+
 🔹 Backend
+
 Python
+
 Flask
+
 TensorFlow / Keras
+
 NumPy
+
 OpenCV
 
 🔹 Frontend
+
 React.js
+
 HTML, CSS, JavaScript
 
 
@@ -64,6 +72,7 @@ Result is displayed to the user.
 
 
 **Model Training**
+
 The model is trained using train.py
 
 Dataset includes:
@@ -83,8 +92,11 @@ Output model is saved as model.h5
 cd "E:\Lung Cancer Detection System"
 
 npx create-react-app lung-cancer-frontend
+
 cd lung-cancer-frontend
+
 npm install axios
+
 npm start
 
 
@@ -105,10 +117,16 @@ To run frontend command: npm start
 
 
 **Output**
+
 Displays prediction result:
+
 Benign
+
 Malignant
+
 Normal
+
+Confidence Score
 
 
 
