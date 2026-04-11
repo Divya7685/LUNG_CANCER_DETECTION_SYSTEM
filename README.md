@@ -35,6 +35,8 @@ lung-cancer-detection-system/
 │   └── README.md
 ```
 
+
+
  **Technologies Used**
 
 🔹 Backend
@@ -56,6 +58,8 @@ React.js
 HTML, CSS, JavaScript
 
 
+
+
  How It Works (Sequence Flow)
 
 User uploads a lung CT scan image via the React frontend.
@@ -69,6 +73,8 @@ The trained deep learning model (model.h5) predicts the class.
 Prediction result is sent back to the frontend.
 
 Result is displayed to the user.
+
+
 
 
 **Model Training**
@@ -85,6 +91,8 @@ Malignant images
 Normal images
 
 Output model is saved as model.h5
+
+
 
 
 **Setup & Run**
@@ -113,6 +121,8 @@ pip install flask tensorflow keras pillow numpy opencv-python flask-cors
 To run Backend command: python app.py
 
 To run frontend command: npm start
+
+
 
 
 
