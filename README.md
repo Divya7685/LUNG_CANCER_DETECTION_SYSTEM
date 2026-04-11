@@ -49,20 +49,32 @@ HTML, CSS, JavaScript
 
 
  How It Works (Sequence Flow)
+
 User uploads a lung CT scan image via the React frontend.
+
 The image is sent to the Flask backend using an API request.
+
 Backend preprocesses the image (resize, normalization).
+
 The trained deep learning model (model.h5) predicts the class.
+
 Prediction result is sent back to the frontend.
+
 Result is displayed to the user.
 
 
 **Model Training**
 The model is trained using train.py
+
 Dataset includes:
+
 Benign images
+
+
 Malignant images
+
 Normal images
+
 Output model is saved as model.h5
 
 
